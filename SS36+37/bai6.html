@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Document</title>
+    <style>
+        .form-container {
+            margin-bottom: 10px;
+        }
+        .student-info {
+            margin-top: 10px;
+        }
+        .error {
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <h1>STUDENT MANAGEMENT</h1>
+    <div class="form-container">
+        <label for="studentId">Student ID:</label>
+        <input type="text" id="studentId" />
+        <br />
+
+        <label for="studentName">Student Name:</label>
+        <input type="text" id="studentName" />
+        <br />
+
+        <label for="age">Age:</label>
+        <input type="number" id="age" />
+        <br />
+
+        <label for="phone">Phone:</label>
+        <input type="text" id="phone" />
+        <br />
+
+        <label for="email">Email:</label>
+        <input type="text" id="email" />
+        <br />
+
+        <button onclick="createStudent()">Create</button>
+    </div>
+
+    <div class="student-info" id="studentInfo"></div>
+
+    <script src="./bai6.js"></script>
+</body>
+</html>
